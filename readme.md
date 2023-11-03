@@ -13,7 +13,7 @@
 
 ## Features of Java
 
-![Alt text](/images/image.png)
+![Alt text](./images/image.png)
 
 * <u>Object Oriented</u>: In object oriented programming everything is an object rather that function and logic.
 
@@ -48,7 +48,7 @@ Java byte codes are form of instructions
 understood by Java Virtual Machine and usually generated as a result of compiling Java 
 languages source code
 
-  ![Alt text](/images/image-1.png)
+  ![Alt text](./images/image-1.png)
 
 - >Bytecode is a highly optimized set of instructions designed to be executed by the Java run-time system, which is called the JVM
 
@@ -71,4 +71,46 @@ ___
 - > JDK ( Java Development Kit )<br>
    1. Contains the JRE and development tools for writing, compiling, and debugging Java applications. 
    
+ ____
+   ## First Java Program
 
+```java
+public class Abc {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+```
+
+
+1. **`public`**:
+   - `public` is an access modifier in Java. It indicates that the class or method can be accessed from any other class or package. In this case, `public` is used to declare the class `HelloWorld`, which means it can be accessed from any other class.
+
+2. **`class`**:
+   - `class` is a keyword in Java used to define a class. A class is a blueprint for creating objects.<br> It encapsulates data (fields) and behavior (methods) related to a particular concept or entity.
+
+3. **`Abc`**:
+   - This is the name of the class.<br> In Java, class names are case-sensitive and should match the name of the file in which the class is defined (including capitalization).<br> In this case, the class is named `Abc`, so it should be saved in a file named `Abc.java`.
+
+4. **`{}`**:
+   - Curly braces are used to define blocks of code. In this program, they are used to define the body of the `HelloWorld` class and the `main` method.
+
+5. 
+      - `public`: Access modifier indicating that the method is accessible from any class.
+      - `static`: In Java, you can use the static keyword to declare that a certain variable or method is shared by all instances of the class
+      - `void`: Specifies that the method does not return any value.
+      - `main`: The name of the method.
+      - `(String[] args)`: The method takes an array of strings as input. This parameter allows you to pass arguments to the program when it is executed from the command line.
+
+7. **`main(String[] args)`** (continued):
+   - The `main` method is the entry point of the program. It's where the program starts executing. It is called when the program is run, and it takes an array of strings (`args`) as input. These are the arguments that can be passed to the program when it is executed from the command line.
+
+8. **`args`**:
+   - `args` is a parameter of the `main` method. It is an array of strings that allows you to pass arguments to the program when it is executed. For example, if you run the program from the command line like this: `java HelloWorld arg1 arg2`, `args` will be an array containing `["arg1", "arg2"]`.
+
+
+- > In Java we usually call <i>`functions`</i> as  <i>`methods`</i> 
+
+- > * <u>Method</u> -> Associated with an object or class in object-oriented programming.<br>
+<u>Function</u> -> Standalone block of code.
