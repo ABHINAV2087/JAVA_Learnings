@@ -114,3 +114,10 @@ public class Abc {
 
 - > * <u>Method</u> -> Associated with an object or class in object-oriented programming.<br>
 <u>Function</u> -> Standalone block of code.
+___
+
+====================================
+___
+   ![Alt text](./images/image-2.png)
+
+   +
