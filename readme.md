@@ -120,4 +120,9 @@ ___
 ___
    ![Alt text](./images/image-2.png)
 
-   +
+   ![Alt text](./images/image-4.png)
+   ![Alt text](./images/image-3.png) 
+   ![Alt text](./images/image-5.png)
+____
+
+![Alt text](./images/image-6.png)
