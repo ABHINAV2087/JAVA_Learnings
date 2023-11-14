@@ -116,17 +116,49 @@ public class Abc {
 <u>Function</u> -> Standalone block of code.
 ___
 
+![Alt text](./images/image-6.png)
 ====================================
 ___
    ![Alt text](./images/image-2.png)
 
+## Data Types in Java
+______
+
+   ![Alt text](./images/image-7.png)
    ![Alt text](./images/image-4.png)
    ![Alt text](./images/image-3.png) 
    ![Alt text](./images/image-5.png)
 ____
+![Alt text](./images/image-8.png)
+![Alt text](./images/image-9.png)
+![Alt text](./images/image-10.png)
 
-![Alt text](./images/image-6.png)
+### Implicit type conversion
 
-![Alt text](./images/image-6.png)
+Implicit type conversion in Java happens when the Java compiler automatically converts one data type to another without any explicit instructions from the programmer.
+```java
 
-![Alt text](./images/image-6.png)
+int numInt = 10; // This is an integer variable
+double numDouble; // This is a double variable
+
+numDouble = numInt; // Implicit type conversion: int to double
+
+System.out.println("Integer value: " + numInt);
+System.out.println("Double value after implicit conversion: " + numDouble);
+
+
+```
+### Explicit type conversion
+
+Explicit type conversion, also known as type casting, in Java involves converting a variable of one data type to another by the programmer's explicit instruction
+```java
+
+double numDouble = 10.5; // This is a double variable
+int numInt; // This is an integer variable
+
+numInt = (int) numDouble; // Explicit type conversion: double to int
+
+System.out.println("Double value: " + numDouble);
+System.out.println("Integer value after explicit conversion: " + numInt);
+
+```
