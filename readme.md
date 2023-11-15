@@ -162,3 +162,17 @@ System.out.println("Double value: " + numDouble);
 System.out.println("Integer value after explicit conversion: " + numInt);
 
 ```
+___
+
+## Operators in Java
+
+![Alt text](./images/image-10.png)
+
+___
+
+- > How many types of variables are there ?<br>
+   In Java there are 3 types of variables:
+   1. <u>Local variables</u> : Declared inside method body
+
+   2. <u>Instance variables</u> : Declared inside class body
+   3. <u>static variables</u> : Declared inside class body prefixed with the keyword static
