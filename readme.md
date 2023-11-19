@@ -177,3 +177,35 @@ ___
    2. <u>Instance variables</u> : Declared inside class body
    3. <u>static variables</u> : Declared inside class body prefixed with the keyword static
 
+___
+### Wrapper Classes [Refer here](./01_Basics/TakeInput.java)
+
+![Alt text](./images/image-11.png)
+![Alt text](./images/image-12.png)
+![Alt text](./images/image-13.png)
+![Alt text](./images/image-14.png)
+
+## Using String Class Methods 
+
+In Java string is a very userful predefined class and it contains a huge set of predefined methods which allow us to perform various operations on strings.
+
+But the maximum of these methods in java are non-static . This means for calling them we must learn how to create objects of string class
+
+```java
+// creating object 
+
+class Student 
+{
+   int roll;
+   char grade;
+   double per;
+   // some methods 
+   get();
+   show();
+}
+
+Student S = new Student();
+S.get();
+S.show();
+
+```
