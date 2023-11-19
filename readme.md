@@ -209,3 +209,23 @@ S.get();
 S.show();
 
 ```
+### Using String Class 
+
+```java
+class Test 
+{
+   public static void main(String [] args)
+   {
+      String s1 = new String("abhinav");
+      String s2 = new String("tirole");
+      System.out.println(s1); // abhinav
+      System.out.println(s2); // tirole
+      
+      
+      System.out.println(s1 == s2); 
+      // this will give false  
+   }
+}
+```
+- > whenever we display string object references <br>Java will never show the adresses stored in these references <br>Rather Java will always print the contents of the STRING OBJECTS to which the reference is pointing  
+- > however when we compare two references then , Java doesn't compare the contents of the object pointed by these references rather java compares the adresses stored in these references
