@@ -229,3 +229,7 @@ class Test
 ```
 - > whenever we display string object references <br>Java will never show the adresses stored in these references <br>Rather Java will always print the contents of the STRING OBJECTS to which the reference is pointing  
 - > however when we compare two references then , Java doesn't compare the contents of the object pointed by these references rather java compares the adresses stored in these references
+
+   ![Alt text](./images/image-16.png)
+
+![Alt text](./images/image-15.png)
