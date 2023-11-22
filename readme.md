@@ -233,3 +233,111 @@ class Test
    ![Alt text](./images/image-16.png)
 
 ![Alt text](./images/image-15.png)
+
+### decision control statements
+
+- >   #### If 
+      - single if
+
+            if(test cond)
+            {
+               ....
+               ....
+            } 
+
+      - if else
+
+            if(test cond)
+              {
+               ....
+              }
+            else
+              {
+               ....
+              }
+
+      - if..else if.. else
+
+            if(test cond)
+              {
+               ....
+              }
+            else if(test cond)
+              {
+               ....
+              }   
+            else
+              {
+               ....
+              }
+
+      - nested if
+
+            if(test cond)
+              {
+                  if(test cond)
+                     {
+                         ....
+                     }
+                  else
+                     {
+                        ....
+                     }
+               }
+            else if(test cond)
+              {
+               ....
+              }   
+            else
+              {
+               ....
+              }
+
+- >   #### Switch
+      
+      - switch (var_name)
+      {
+         case <value1>:
+            .....
+            .....
+         break;
+         case <value2>:
+            .....
+            .....
+         break;
+         default:
+            .....
+            .....
+         break;   
+      }
+
+- >   #### Ternary operator
+       The ternary operator can be used as an alternative to the Java's 
+       if-else and switch statements.
+
+       var_name = (test condition) ?(true_exprssiom):(false_expression)
+
+### Scanner class
+
+* Important methods of Scanner Class <br>
+
+    ```java
+         public int nextInt() => accepts an integer as input 
+
+         public double nextDouble() => accepts an double value as input 
+
+         public float nextFloat() => accepts an float value as input 
+
+         public boolean nextBoolean() => accepts an boolean value as input    
+       .
+       .
+       .
+       .
+      Like this we have nextXXX() methods for every primitive data type except character
+
+
+
+      for accepting Strings we have 2 methods in Scanner class:
+      1. public String next()
+      2. public Stting nextLine()
+
