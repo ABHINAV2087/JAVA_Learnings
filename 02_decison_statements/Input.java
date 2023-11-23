@@ -10,4 +10,12 @@ public class Input {
         System.out.println("your age is "+age);
     }
 }
+class Input1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("what is your age ? ");
+        int age = sc.nextInt();
+        System.out.println("your age is "+age);
+    }
+}
 
