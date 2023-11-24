@@ -18,4 +18,11 @@ class Input1 {
         System.out.println("your age is "+age);
     }
 }
-
+class Input3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("what is your age ? ");
+        int age = sc.nextInt();
+        System.out.println("your age is "+age);
+    }
+}
