@@ -64,3 +64,50 @@ arr[1] = 30;
 System.out.println(arr[0]);
 
 ```
+
+## How Java handles  DeAllocation of dynamic blocks
+
+*  <u>Garbage block</u>
+
+    In java if a dynamic block is not being referred by an reference then such dynamic blocks are called as garbage block
+
+* <u>Garbage collector</u>
+
+    The garbage collector is a program which runs on the Java Virtual Machine which gets rid of objects which are not being used by a Java application anymore. It is a form of automatic memory management.
+
+    <i>ye program heap area me chalta hai aur jo programs use nhi horhe wo hta deta hai , ye kabhi stack me nhi chlta</i>
+
+___
+
+# Double Dimensional arrays
+
+There are two types of 2D arrays :-
+
+
+### 1. Reactangle 2D Array
+Every row contains same number of columns
+
+* Syntax for creating rectangular 2D arrays
+    ```java
+
+    1. Declaring array reference:
+
+        <data_type> [][] <array_ref>;
+
+        or
+
+        <data_type> <array_ref> [][] ;
+
+    2. Creating the Actual array:
+
+        <array_name> = new <data type>[row size][col size];
+    ```
+
+    ![Alt text](image-1.png)
+    ```java
+    int [][] arr = new int [3][4]
+    ```
+
+### 2. Jagged 2D Array
+Every row can have different number of columns
+
