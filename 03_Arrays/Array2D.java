@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Array2D {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -24,8 +25,8 @@ public class Array2D {
             }
         }
         System.out.println(" ");
-        System.out.println("the sum of all elements is : "+sum);
-        System.out.println("the avg of all elements is : "+ (float)sum/12);
+        System.out.println("the sum of all elements is : "+ sum);
+        System.out.println("the average of all elements is : "+ (float)sum/12);
     }
     
 }

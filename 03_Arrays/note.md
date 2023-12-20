@@ -101,6 +101,7 @@ Every row contains same number of columns
     2. Creating the Actual array:
 
         <array_name> = new <data type>[row size][col size];
+        
     ```
 
     ![Alt text](image-1.png)
@@ -110,4 +111,33 @@ Every row contains same number of columns
 
 ### 2. Jagged 2D Array
 Every row can have different number of columns
+* Syntax for creating jagged 2D arrays
 
+    ```java
+
+    1. creating array reference:
+
+        <data_type> [][] <array_ref> = new <data type>[row size][];
+
+        
+
+    2. Creating the Actual array:
+
+        <array_ref_name>[row_index] = new <data type>[col size]
+        <array_ref_name>[row_index] = new <data type>[col size]
+        .
+        .
+        .
+        .
+        
+    ```
+    ```java
+    Example :-
+
+    int [][] arr = new int [3][];
+
+    arr[0] = new int [4];
+    arr[1] = new int [3];
+    arr[2] = new int [2;
+    arr[3] = new int [5];
+    ```
