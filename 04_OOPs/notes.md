@@ -32,3 +32,23 @@ In java just like many other object oriented lang we have constructors which are
 3. they are automatically called by java as soon as the object of a class gets created . since in java object creation happens at runtime so we can say that constructor calling in java happens ar runtime 
 4. In java , if we mention the return type of a constructor then although the compiler will not give any error but java will not consider it to be a constructor any more . Rather it will be considered as a normal instance method and will not be called on object creation
 5. if a programmer does not define any constructor himself in the class then the java compiler automatically inserts a special consrtuctor in our class which is called as default constructor
+
+
+
+___
+# Method Overloading
+
+The word overloading in programming means multiple implementations of the same entity .
+Thus if we have mutiple methods in a class having the same name then we can say that it is METHOD OVERLOADING
+
+-> the most common example of method overloading is    method println() 
+
+![Alt text](image.png)
+
+* Points to remember :
+
+When we overload 2 or more methods then we must remember that these methods should differ from each other with respect to their arguments and this difference can be of three types
+
+1. number of arguments 
+2. types id arguments 
+3. order of arguments
