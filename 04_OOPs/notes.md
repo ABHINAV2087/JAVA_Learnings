@@ -52,3 +52,13 @@ When we overload 2 or more methods then we must remember that these methods shou
 1. number of arguments 
 2. types id arguments 
 3. order of arguments
+
+
+# Constructor Overloading
+
+Just like we can overload methods , similarly we also can overload constructors in our class .
+That is , in a single class we can have multiple constructors
+<br>
+But each of these constructors should appear different than other constructors w.r.t its arguments.
+<br>
+when an object of the class will be created , then Java will call that constructor which closely matches the type / number of arguments passed to the object 

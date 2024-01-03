@@ -341,3 +341,11 @@ class Test
       1. public String next()
       2. public Stting nextLine()
 
+
+____
+
+### Arguments passing in java
+
+In java , arguments are passed by value . 
+not passed by reference
+
