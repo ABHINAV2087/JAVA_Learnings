@@ -344,8 +344,31 @@ class Test
 
 ____
 
-### Arguments passing in java
+###   Arguments passing in java
 
 In java , arguments are passed by value . 
 not passed by reference
+
+In java , we can pass 2 kinds of arguments to methods :<br>
+#### 1. <u> Passing variables</u>
+ * 1. whenever we pass a variable as a argument to a method , java always passes it value
+ * 2. this value is then received by another variable declared in the formal arg list of the method being called
+ * 3. so, now , both the arguments , actual and formal , have the same value 
+ * 4. but their adressess are different 
+ * 5. so if we make any change in the value of formal argument , then it will never change the value of actual argument 
+ * 6. so . the conclusion is that , variables in java are always passed using pass by value mechanism  
+
+
+#### 2. <u> Passing reference as argument to method </u>( array reference , object reference )
+
+
+ * 1. whenever we pass any reference as argument to a method , then java passes the adress of the object pointed by that reference
+ * 2. this address is then received by the formal reference declared inside the method's argument list
+ * 3. so now both the actual reference and the formal reference start pointing to the same object 
+ * 4. thus if we make any changes in the formal reference itself then it will never effect the actual reference nor it will effect the original objects data
+ * 5. but if we make some changes in the formal reference itself then it will never effect the actual referennce nor it will effect the original object
+ * 6. thus we say that even reference in java are passed using pass by value 
+ * 7. so the final conclusion is that<U> NOTHING IN JAVA IS PASSED USING PASS BY REFERENCE</U > 
+
+
 
